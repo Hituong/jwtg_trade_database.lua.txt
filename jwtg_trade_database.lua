@@ -672,7 +672,8 @@ return {
         {"Pteranodon Shard", "-779586877", "5"},
         {"Blue Shard", "-1640810987", "5"},
         {"Rexy Shard", "1019074437", "5"},
-        {"Smoothie Shard", "-1985032250", "5"}
+        {"Smoothie Shard", "-1985032250", "5"},
+        {"Alanqa Shard","669609303","5"}
     },
     sadn = {
         {"Tapejara S-DNA", "-69653029", "0"},
