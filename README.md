@@ -1,0 +1,1 @@
+# jwtg_trade_database.lua
