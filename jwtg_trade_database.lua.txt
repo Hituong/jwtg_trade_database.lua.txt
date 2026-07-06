@@ -676,17 +676,17 @@ return {
         {"Alanqa Shard","669609303","5"}
     },
     sadn = {
-        {"Tapejara S-DNA", "-69653029", "0"},
-        {"Kentrosaurus S-DNA", "1025144099", "0"},
-        {"Edestus S-DNA", "-119647718", "0"},
-        {"Velociraptor S-DNA", "-93170300", "0"},
-        {"Edaphosaurus S-DNA", "-1157956613", "0"},
-        {"Dimetrodon S-DNA", "-59391110", "0"},
-        {"Kaprosuchus S-DNA", "1205504321", "0"},
-        {"Sarcosuchus S-DNA", "-2121385870", "0"},
-        {"Monolophosaurus S-DNA", "-134714335", "0"},
-        {"Ankylosaurus S-DNA", "-543227015", "0"},
-        {"Euoplocephalus S-DNA", "1884519706", "0"},
-        {"Tupandactylus S-DNA", "305981254", "0"}
+        {"Tapejara S-DNA", "-69653029", "12"},
+        {"Kentrosaurus S-DNA", "1025144099", "12"},
+        {"Edestus S-DNA", "-119647718", "12"},
+        {"Velociraptor S-DNA", "-93170300", "12"},
+        {"Edaphosaurus S-DNA", "-1157956613", "12"},
+        {"Dimetrodon S-DNA", "-59391110", "12"},
+        {"Kaprosuchus S-DNA", "1205504321", "12"},
+        {"Sarcosuchus S-DNA", "-2121385870", "12"},
+        {"Monolophosaurus S-DNA", "-134714335", "12"},
+        {"Ankylosaurus S-DNA", "-543227015", "12"},
+        {"Euoplocephalus S-DNA", "1884519706", "12"},
+        {"Tupandactylus S-DNA", "305981254", "12"}
     }
 }
