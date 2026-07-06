@@ -3557,3 +3557,255 @@ return {
         }
     }
                                     }
+-- ============================================
+-- 2. MODS
+-- ============================================
+mods = {
+    ataque = {
+        {"Splinter", "-760248465", "11"},
+        {"Toxin", "-708689034", "11"},
+        {"Bleed", "412634600", "11"},
+        {"Spikes", "1872723326", "11"},
+        {"Terrify", "104353395", "11"},
+        {"Alpha", "25394345", "11"},
+        {"Berserk", "-387917412", "11"},
+        {"Piercing Bite", "-1735774957", "11"},
+        {"Charge", "-883749373", "11"},
+        {"Distraction", "573614902", "11"},
+        {"Intimidation", "-1299204441", "11"},
+        {"Rally", "1381654457", "11"}
+    },
+    defensa = {
+        {"Protectors", "530129420", "11"},
+        {"Survival", "1288377036", "11"},
+        {"Armored Hide", "-1890937760", "11"},
+        {"Inspire", "1899986661", "11"},
+        {"Tough Skin", "133833796", "11"}
+    },
+    soporte = {
+        {"Mirror", "1017243203", "11"},
+        {"Shuffle", "-1564118048", "11"},
+        {"Adrenaline Rush", "-2121196462", "11"},
+        {"Clone", "-129129226", "11"},
+        {"Killer Instinct", "-1624170551", "11"},
+        {"Predation", "-2030249909", "11"},
+        {"Randomize", "-399102113", "11"},
+        {"Steal", "1760737639", "11"},
+        {"Bind", "1911130150", "11"},
+        {"Nullify", "1988381759", "11"}
+    },
+    curacion = {
+        {"Regenerate", "-1515669511", "11"},
+        {"Siphoning Bite", "-235149091", "11"},
+        {"Invigorate", "1895634130", "11"},
+        {"Endurance", "-1153828212", "11"},
+        {"Vitality", "626880303", "11"},
+        {"Wound", "-980908495", "11"},
+        {"Split Wound", "1830411669", "11"}
+    }
+},
+
+-- ============================================
+-- 3. FRAGMENTOS
+-- ============================================
+fragmentos = {
+    {"Triceratops Shard", "-670191440", "10"},
+    {"Postosuchus Shard", "2059535625", "10"},
+    {"Dilophosaurus Shard", "428628137", "10"},
+    {"Pteranodon Shard", "-779586877", "10"},
+    {"Blue Shard", "-1640810987", "10"},
+    {"Rexy Shard", "1019074437", "10"},
+    {"Smoothie Shard", "-1985032250", "10"}
+},
+
+-- ============================================
+-- 4. S-ADN
+-- ============================================
+sadn = {
+    {"Tapejara S-DNA", "-69653029", "12"},
+    {"Kentrosaurus S-DNA", "1025144099", "12"},
+    {"Edestus S-DNA", "-119647718", "12"},
+    {"Velociraptor S-DNA", "-93170300", "12"},
+    {"Edaphosaurus S-DNA", "-1157956613", "12"},
+    {"Dimetrodon S-DNA", "-59391110", "12"},
+    {"Kaprosuchus S-DNA", "1205504321", "12"},
+    {"Sarcosuchus S-DNA", "-2121385870", "12"},
+    {"Monolophosaurus S-DNA", "-134714335", "12"},
+    {"Ankylosaurus S-DNA", "-543227015", "12"},
+    {"Euoplocephalus S-DNA", "1884519706", "12"},
+    {"Tupandactylus S-DNA", "305981254", "12"}
+},
+
+-- ============================================
+-- 5. DECORACIONES
+-- ============================================
+decoraciones = {
+    comunes = {
+        {"Gazebo", "-1840664448", "2"},
+        {"Water Path Garden", "-1573299598", "2"},
+        {"Tyrannosaurus Topiary", "1166975718", "2"},
+        {"Flowerbed", "-1659643892", "2"},
+        {"Daisy Bed", "471806689", "2"},
+        {"Cherry Blossom Park", "75957830", "2"},
+        {"Wooden Bridge", "1041157981", "2"},
+        {"Velociraptor Garden Sculpture", "-560780693", "2"},
+        {"Tropical Planter", "-896388521", "2"},
+        {"Tropical Boulevard", "1067873184", "2"},
+        {"Triceratops Sculpture", "-1172162672", "2"},
+        {"Tar Pit", "-1718690042", "2"},
+        {"Stegosaurus Garden Sculpture", "900898259", "2"},
+        {"Park of Prehistory", "205812938", "2"},
+        {"Park Oasis", "379899900", "2"},
+        {"Mystery Cavern", "-690934920", "2"},
+        {"Mosasaurus Sculpture", "475348004", "2"},
+        {"Modern Arch", "2053427703", "2"},
+        {"Lava Crater", "-1742472189", "2"},
+        {"Jurassic World Flag", "-328316449", "2"},
+        {"Jungle Conservation", "-50253108", "2"},
+        {"John Hammond Memorial", "-252737352", "2"},
+        {"Geyser", "1099996274", "2"},
+        {"Fountain", "-890115442", "2"},
+        {"Carnivorous Plant", "203282750", "2"},
+        {"Bonfire", "506389324", "2"},
+        {"Apatosaurus Garden Sculpture", "-380760941", "2"},
+        {"Apatosaurus Fossil", "452427227", "2"},
+        {"Amber Pedestial", "-1760676826", "2"}
+    },
+    vip = {
+        {"Badge Beacon", "-852413883", "2"},
+        {"Brachiosaurus Sculpture", "-1268232173", "2"},
+        {"Triceratops Exhibit", "427738399", "2"},
+        {"Indoraptor Skylight", "266163637", "2"},
+        {"Ammonite Oasis", "504851324", "2"},
+        {"MR. DNA Statue", "-1489370798", "2"},
+        {"Spinosaurus Skeleton", "1805323180", "2"},
+        {"Paradise Lagoon", "-1085599335", "2"},
+        {"Clock Tower", "352124288", "2"},
+        {"Sundial", "-806329226", "2"},
+        {"Rainforest Pavilion", "-218378741", "2"},
+        {"Ocean Fountain", "-1617945622", "2"},
+        {"Earth Park", "821951616", "2"}
+    },
+    limitadas = {
+        {"D Rex statue", "1141984432", "2"},
+        {"10th Anniversary", "-258499418", "2"},
+        {"30th Anniversary Topiary", "768852875", "2"},
+        {"4th Anniversary", "-1289510396", "2"},
+        {"6th Anniversary", "-746645681", "2"},
+        {"7th Anniversary", "250203850", "2"},
+        {"8th Anniversary", "697900031", "2"},
+        {"9th Anniversary", "-200293766", "2"},
+        {"Amber Motorcycle", "-1195596305", "2"},
+        {"Blue and Beta", "-94688805", "2"},
+        {"Blue Statue", "-1785246481", "2"},
+        {"Booster Legacy", "-1870782173", "2"},
+        {"Bumpy's Statue", "1352911750", "2"},
+        {"Charlie Statue", "-1036375985", "2"},
+        {"Delta Statue", "1794234147", "2"},
+        {"Dodo Easter Statue", "-766439695", "2"},
+        {"Echo Statue", "480622185", "2"},
+        {"Haast Statue", "1234806743", "2"},
+        {"Incubator Egg Statue", "-1409675954", "2"},
+        {"Jurassic Park Gates", "-1418590269", "2"},
+        {"Jurassic Park T. Rex", "1559759805", "2"},
+        {"Land and Sea Rival Park", "1000892167", "2"},
+        {"Mammoth Diorama", "100144443", "2"},
+        {"Megatherium Diorama", "1975559997", "2"},
+        {"Nodosaurus Fossil", "-1940619558", "2"},
+        {"Rex Rival Park", "-1629520660", "2"},
+        {"Scorpios Rex Statue", "-308089113", "2"},
+        {"Smilodon Diorama", "-1845385825", "2"},
+        {"Snack Statue", "2041039507", "2"},
+        {"Titanoboa Diorama", "697020531", "2"},
+        {"Angel and Rebel", "658105486", "2"},
+        {"Biosyn Fountain", "218944938", "2"},
+        {"Commemorative Bell", "1949226078", "2"}
+    },
+    estatuas_jefe = {
+        {"Omega 09 Statue", "-1479839203", "2"},
+        {"Juggernaut 32 Statue", "169078216", "2"},
+        {"Kraken 18 Statue", "1213838668", "2"},
+        {"Coloso 04 Statue", "1511097404", "2"},
+        {"Valkyrie 77 Statue", "253703920", "2"},
+        {"Fénix 44 Statue", "-1809034836", "2"},
+        {"Salamander 16 Statue", "-660039944", "2"},
+        {"Vortice 08 Statue", "-1402139955", "2"},
+        {"Ouroboros 66 Statue", "57795765", "2"},
+        {"Muerte Dodo Statue", "686633828", "2"},
+        {"Alfa 06 Statue", "-153991617", "2"},
+        {"Akupara 81 Statue", "-331935970", "2"},
+        {"Vulcano 19 Statue", "379729028", "2"},
+        {"Behemot 93 Statue", "-397666220", "2"},
+        {"Imperatosuchus 53 Statue", "-2128948937", "2"},
+        {"Mortem Rex Statue", "130548071", "2"}
+    },
+    estatuas_jefe_doradas = {
+        {"Golden Kraken 18 Statue", "-1238538682", "2"},
+        {"Golden Omega 09 Statue", "1700107005", "2"},
+        {"Golden Ouroboros 66 Statue", "-480609928", "2"},
+        {"Golden Valkyrie 77 Statue", "-281760963", "2"},
+        {"Golden Juggernaut 32 Statue", "-365400059", "2"},
+        {"Golden Muerte Dodo Statue", "-2010820612", "2"},
+        {"Golden Maelstrom 08 Statue", "1230544733", "2"},
+        {"Golden Coloso 04 Statue", "-1536862410", "2"},
+        {"Golden Alfa 06 Statue", "1444559527", "2"},
+        {"Golden Fénix 44 Statue", "1897514044", "2"},
+        {"Golden Salamander 16 Statue", "948112181", "2"},
+        {"Golden Vulcan 19 Statue", "-158750391", "2"},
+        {"Golden Akupara 81 Statue", "203199187", "2"},
+        {"Golden Behemoth 93 Statue", "-1135756980", "2"},
+        {"Golden Imperatosuchus 53 Statue", "1630620922", "2"},
+        {"Golden Mortem Rex Statue", "-404513622", "2"}
+    }
+},
+
+-- ============================================
+-- 6. EDIFICIOS
+-- ============================================
+edificios = {
+    comunes = {
+        {"Acu Security Office", "-2115132413", "1"},
+        {"Amazing Maze", "-2032241996", "1"},
+        {"Badlands Amphitheater", "-1483492551", "1"},
+        {"Big Bite Burger Restaurant", "1894282273", "1"},
+        {"Cloud Nine Ballon Ride", "-1894107255", "1"},
+        {"Communication Station", "-534281293", "1"},
+        {"Discovery Dig Site", "1770805621", "1"},
+        {"Dizzy Dino Ride", "77237266", "1"},
+        {"Egg Spinner Ride", "704749173", "1"},
+        {"Extinction Roller Coaster", "-1299151072", "1"},
+        {"Flying Ride", "451987619", "1"},
+        {"Heliport", "826593355", "1"},
+        {"Hologram Museum", "-162004717", "1"},
+        {"Horizon Observatory", "2137758808", "1"},
+        {"Ice Cream Stand", "-1048447638", "1"},
+        {"Jungle Bean Coffee Shop", "1148452710", "1"},
+        {"Jurassic Arcade", "967330073", "1"},
+        {"Jurassic Drop Tower", "1763625346", "1"},
+        {"Little Fossil Gift Shop", "731852446", "1"},
+        {"Maintenance Facility", "-2040279077", "1"},
+        {"Navigator Blimp Ride", "366814250", "1"},
+        {"Party Hut", "-994941130", "1"},
+        {"Power Generator", "-1699182382", "1"},
+        {"Pterosauria Cineplex", "224163545", "1"},
+        {"Revolution Ferris Wheel", "-477328136", "1"},
+        {"Sky Point", "1573211900", "1"},
+        {"Solar Tracker", "-1184513118", "1"},
+        {"Speedy Go Kart Circuit", "1405320306", "1"},
+        {"Triple Crown Hotel", "113373905", "1"},
+        {"Wild Waterfalls", "8991235", "1"}
+    },
+    vip = {
+        {"Revenue Tower", "627462233", "1"},
+        {"Dino of the Deep Ride", "1740305612", "1"},
+        {"Heat Nightclub", "-845512984", "1"},
+        {"Main Street Bistro", "-142703287", "1"},
+        {"Natural Science Center", "1979638064", "1"},
+        {"Pagoda Garden", "1425214257", "1"},
+        {"Solar Greenhouse", "-1105918349", "1"},
+        {"Supper Club", "510034534", "1"},
+        {"Wildlife Preservation", "-444290909", "1"},
+        {"Wind Turbine", "-1934950112", "1"},
+        {"Zip Line Ride", "427069590", "1"}
+    }
+                                                                        }
