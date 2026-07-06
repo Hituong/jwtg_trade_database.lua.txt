@@ -678,7 +678,7 @@ return {
     sadn = {
     {"Tapejara S-DNA", "-69653029", "0"},
     {"Kentrosaurus S-DNA", "1025144099", "12"},
-    {"Edestus S-DNA", "-119647718", "0"},
+    {"Edestus S-DNA", "-119647718", "0"},  -- ✅ Đã thêm dấu phẩy
     {"Velociraptor S-DNA", "-93170300", "12"},
     {"Edaphosaurus S-DNA", "-1157956613", "12"},
     {"Dimetrodon S-DNA", "-59391110", "12"},
