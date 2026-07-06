@@ -1,4 +1,5 @@
--- jwtg_trade_database.lua
+-- jwtg_trade_database_full.lua
+-- Database đầy đủ cho JWTG
 return {
     dinosaurios = {
         terrestres = {
@@ -455,8 +456,7 @@ return {
             {"Salamander 16", "-1863210213", "0"}
         }
     },
-                            
-             edificios = {
+    edificios = {
         comunes = {
             {"Acu Security Office", "-2115132413", "1"},
             {"Amazing Maze", "-2032241996", "1"},
