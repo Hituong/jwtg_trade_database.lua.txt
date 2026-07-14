@@ -87,7 +87,7 @@ return {
                     {"Guanlong", "824631109", "0"},
                     {"Majungasaurus", "-1506057474", "0"},
                     {"Carnotaurus Toy", "-1279050091", "0"},
-                },
+            
                 herviboros = {
                     {"Rebel", "981247961", "0"},
                     {"Angel", "-831693255", "0"},
