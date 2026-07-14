@@ -5,6 +5,7 @@ return {
         terrestres = {
             no_hibridos = {
                 carnivoros = {
+                    {"Carnotaurus Toy", "-1279050091", "0"},
                     {"Dakotaraptor", "-231573096", "0"},
                     {"One-Eyed Allosaurus", "-584593692", "0"},
                     {"Junior", "1776749182", "0"},
@@ -433,6 +434,7 @@ return {
             }
         },
         super_hibridos = {
+            {"Toujiangosaurus", "-821387451", "0"},
             {"Spinotops", "250860212", "0"},
             {"Quetzaljara", "-1408411774", "0"},
             {"Hydraboa", "-1054185433", "0"},
@@ -677,6 +679,7 @@ return {
         {"Alanqa Shard", "669609303", "10"}
     },
     sadn = {
+        {"Sonorasaurus S-DNA", "-785679876", "12"},
         {"Tapejara S-DNA", "-69653029", "12"},
         {"Kentrosaurus S-DNA", "1025144099", "12"},
         {"Edestus S-DNA", "-119647718", "12"},
