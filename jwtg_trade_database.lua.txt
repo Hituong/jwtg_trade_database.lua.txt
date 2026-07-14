@@ -86,7 +86,8 @@ return {
                     {"Utahraptor", "1566851148", "0"},
                     {"Guanlong", "824631109", "0"},
                     {"Majungasaurus", "-1506057474", "0"},
-                    {"Carnotaurus Toy", "-1279050091", "0"},
+                    {"Carnotaurus Toy", "-1279050091", "0"}
+},
             
                 herviboros = {
                     {"Rebel", "981247961", "0"},
@@ -446,7 +447,8 @@ return {
             {"Gigakylocephalus", "751034065", "0"},
             {"Monostegotops", "-1994092941", "0"},
             {"Tapejalocephalus", "-1018223924", "0"},
-            {"Pelecachtylus", "-716312085", "0"},       {"Compsoraptor", "1693196637", "0"},
+            {"Pelecachtylus", "-716312085", "0"},      
+{"Compsoraptor", "1693196637", "0"},
             {"Diplosuchus", "-336036848", "0"}
         },
         boss = {
@@ -691,4 +693,4 @@ return {
         {"Euoplocephalus S-DNA", "1884519706", "12"},
         {"Tupandactylus S-DNA", "305981254", "12"},
     {"Sonorasaurus S-DNA", "-785679876", "12"}
-}
+},
