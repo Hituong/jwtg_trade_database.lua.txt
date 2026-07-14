@@ -85,6 +85,7 @@ return {
                     {"Giganotosaurus", "1828181319", "0"},
                     {"Utahraptor", "1566851148", "0"},
                     {"Guanlong", "824631109", "0"},
+{"Carnotaurus Toy", "-1279050091", "0"},
                     {"Majungasaurus", "-1506057474", "0"}
                 },
                 herviboros = {
@@ -433,21 +434,22 @@ return {
             }
         },
         super_hibridos = {
-            {"Spinotops", "250860212", "0"},
-            {"Quetzaljara", "-1408411774", "0"},
-            {"Hydraboa", "-1054185433", "0"},
-            {"Skoonasaurus", "1869980874", "0"},
-            {"Indoraptor Gen 2", "-959655851", "0"},
-            {"Indoraptor", "883871771", "0"},
-            {"Megalocevia", "-214093024", "0"},
-            {"Spinotasuchus", "673899032", "0"},
-            {"Dimetrocarnus", "-1737804847", "0"},
-            {"Gigakylocephalus", "751034065", "0"},
-            {"Monostegotops", "-1994092941", "0"},
-            {"Tapejalocephalus", "-1018223924", "0"},
-            {"Pelecachtylus", "-716312085", "0"},
-            {"Diplosuchus", "-336036848", "0"}
-        },
+    {"Spinotops", "250860212", "0"},
+    {"Quetzaljara", "-1408411774", "0"},
+    {"Hydraboa", "-1054185433", "0"},
+    {"Skoonasaurus", "1869980874", "0"},
+    {"Indoraptor Gen 2", "-959655851", "0"},
+    {"Indoraptor", "883871771", "0"},
+    {"Megalocevia", "-214093024", "0"},
+    {"Spinotasuchus", "673899032", "0"},
+    {"Dimetrocarnus", "-1737804847", "0"},
+    {"Gigakylocephalus", "751034065", "0"},
+    {"Monostegotops", "-1994092941", "0"},
+    {"Tapejalocephalus", "-1018223924", "0"},
+    {"Pelecachtylus", "-716312085", "0"},
+    {"Compsoraptor", "1693196637", "0"},
+    {"Diplosuchus", "-336036848", "0"}
+},
         boss = {
             {"Mortem Rex", "519140120", "0"},
             {"Omega 09", "-1508593356", "0"},
@@ -677,17 +679,17 @@ return {
         {"Alanqa Shard", "669609303", "10"}
     },
     sadn = {
-        {"Tapejara S-DNA", "-69653029", "12"},
-        {"Kentrosaurus S-DNA", "1025144099", "12"},
-        {"Edestus S-DNA", "-119647718", "12"},
-        {"Velociraptor S-DNA", "-93170300", "12"},
-        {"Edaphosaurus S-DNA", "-1157956613", "12"},
-        {"Dimetrodon S-DNA", "-59391110", "12"},
-        {"Kaprosuchus S-DNA", "1205504321", "12"},
-        {"Sarcosuchus S-DNA", "-2121385870", "12"},
-        {"Monolophosaurus S-DNA", "-134714335", "12"},
-        {"Ankylosaurus S-DNA", "-543227015", "12"},
-        {"Euoplocephalus S-DNA", "1884519706", "12"},
-        {"Tupandactylus S-DNA", "305981254", "12"}
-    }
+    {"Tapejara S-DNA", "-69653029", "12"},
+    {"Kentrosaurus S-DNA", "1025144099", "12"},
+    {"Edestus S-DNA", "-119647718", "12"},
+    {"Velociraptor S-DNA", "-93170300", "12"},
+    {"Edaphosaurus S-DNA", "-1157956613", "12"},
+    {"Dimetrodon S-DNA", "-59391110", "12"},
+    {"Kaprosuchus S-DNA", "1205504321", "12"},
+    {"Sarcosuchus S-DNA", "-2121385870", "12"},
+    {"Monolophosaurus S-DNA", "-134714335", "12"},
+    {"Ankylosaurus S-DNA", "-543227015", "12"},
+    {"Euoplocephalus S-DNA", "1884519706", "12"},
+    {"Sonorasaurus S-DNA", "-785679876", "12"},
+    {"Tupandactylus S-DNA", "305981254", "12"} 
 }
