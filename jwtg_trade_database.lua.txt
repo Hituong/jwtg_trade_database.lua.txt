@@ -434,6 +434,7 @@ return {
             }
         },
         super_hibridos = {
+            {"Compsoraptor", "1693196637", "0"},
             {"Toujiangosaurus", "-821387451", "0"},
             {"Spinotops", "250860212", "0"},
             {"Quetzaljara", "-1408411774", "0"},
