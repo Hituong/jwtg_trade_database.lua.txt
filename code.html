@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔑 Tạo Code Xác Thực JWTG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0a0a1a;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #1a1a2e;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(255, 165, 0, 0.3);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+        h1 {
+            color: #ff8c00;
+            font-size: 28px;
+        }
+        .code-box {
+            background: #0d0d1a;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #ff8c00;
+            font-size: 24px;
+            font-family: monospace;
+            word-break: break-all;
+            color: #ffcc00;
+            user-select: all;
+            cursor: pointer;
+        }
+        .info {
+            background: #111;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .btn {
+            background: #ff8c00;
+            color: #fff;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            margin: 5px;
+        }
+        .btn:hover {
+            background: #e67600;
+            transform: scale(1.05);
+        }
+        .btn-copy {
+            background: #2d2d5e;
+        }
+        .btn-copy:hover {
+            background: #3d3d7e;
+        }
+        .expiry {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        .valid {
+            color: #51cf66;
+            font-weight: bold;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #555;
+        }
+        input {
+            background: #0d0d1a;
+            border: 1px solid #444;
+            color: #fff;
+            padding: 12px;
+            border-radius: 8px;
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔑 TẠO CODE XÁC THỰC</h1>
+        <p style="color: #aaa; margin-bottom: 20px;">Hệ thống tạo code cho script JWTG</p>
+        
+        <div class="info" style="text-align: left;">
+            <div>👤 Người dùng: <strong style="color: #ff8c00;">PhucTuong</strong></div>
+            <div>⏳ Thời hạn: <strong style="color: #51cf66;">3 ngày</strong></div>
+            <div>📅 Tạo lúc: <span id="createTime">-</span></div>
+            <div>📅 Hết hạn: <span id="expiryTime">-</span></div>
+        </div>
+
+        <div class="code-box" id="codeDisplay" onclick="copyCode()">
+            🔄 Đang tạo code...
+        </div>
+
+        <div id="statusBox" class="status"></div>
+
+        <div style="margin: 15px 0;">
+            <button class="btn" onclick="generateCode()">🔄 Tạo Code Mới</button>
+            <button class="btn btn-copy" onclick="copyCode()">📋 Copy Code</button>
+        </div>
+
+        <div style="margin: 15px 0;">
+            <p style="color: #888; font-size: 14px;">Hoặc nhập code để kiểm tra:</p>
+            <input type="text" id="checkInput" placeholder="Nhập code cần kiểm tra...">
+            <button class="btn" style="padding: 10px 20px; font-size: 14px; margin-top: 10px;" onclick="checkCode()">🔍 Kiểm tra</button>
+        </div>
+
+        <div id="checkResult" style="margin-top: 10px; font-weight: bold;"></div>
+
+        <div class="footer">
+            ⚡ Code có hiệu lực trong 3 ngày kể từ khi tạo
+        </div>
+    </div>
+
+    <script>
+        const USERNAME = "PhucTuong";
+        const EXPIRY_DAYS = 3;
+
+        function generateCode() {
+            // Tạo phần ngẫu nhiên
+            const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            let randomPart = "";
+            for (let i = 0; i < 8; i++) {
+                randomPart += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+
+            // Lấy thời gian hiện tại
+            const now = Math.floor(Date.now() / 1000);
+            const expiry = now + (EXPIRY_DAYS * 24 * 60 * 60);
+
+            // Tạo code
+            const code = USERNAME + randomPart + expiry;
+
+            // Hiển thị
+            document.getElementById('codeDisplay').textContent = code;
+            document.getElementById('codeDisplay').style.color = '#ffcc00';
+            
+            // Thời gian
+            const nowDate = new Date(now * 1000);
+            const expiryDate = new Date(expiry * 1000);
+            document.getElementById('createTime').textContent = nowDate.toLocaleString('vi-VN');
+            document.getElementById('expiryTime').textContent = expiryDate.toLocaleString('vi-VN');
+
+            // Cập nhật trạng thái
+            const statusBox = document.getElementById('statusBox');
+            statusBox.innerHTML = '<span style="color: #51cf66;">✅ Code đã tạo thành công! Có hiệu lực 3 ngày.</span>';
+            statusBox.style.background = 'rgba(81, 207, 102, 0.1)';
+            
+            // Lưu vào localStorage để dùng sau
+            localStorage.setItem('lastCode', code);
+            localStorage.setItem('lastExpiry', expiry);
+            localStorage.setItem('lastRandom', randomPart);
+
+            return code;
+        }
+
+        function copyCode() {
+            const code = document.getElementById('codeDisplay').textContent;
+            if (code && code !== '🔄 Đang tạo code...') {
+                navigator.clipboard.writeText(code).then(() => {
+                    const statusBox = document.getElementById('statusBox');
+                    statusBox.innerHTML = '📋 Đã copy code vào clipboard!';
+                    statusBox.style.background = 'rgba(255, 165, 0, 0.2)';
+                    setTimeout(() => {
+                        statusBox.innerHTML = '<span style="color: #51cf66;">✅ Code đã tạo thành công! Có hiệu lực 3 ngày.</span>';
+                        statusBox.style.background = 'rgba(81, 207, 102, 0.1)';
+                    }, 2000);
+                });
+            }
+        }
+
+        function checkCode() {
+            const input = document.getElementById('checkInput').value.trim();
+            const resultDiv = document.getElementById('checkResult');
+            
+            if (!input) {
+                resultDiv.innerHTML = '❌ Vui lòng nhập code!';
+                resultDiv.style.color = '#ff6b6b';
+                return;
+            }
+
+            // Kiểm tra định dạng
+            if (!input.startsWith(USERNAME)) {
+                resultDiv.innerHTML = '❌ Code không hợp lệ! (Không đúng định dạng)';
+                resultDiv.style.color = '#ff6b6b';
+                return;
+            }
+
+            // Lấy phần thời gian
+            const timestampStr = input.slice(-10);
+            const expiryTime = parseInt(timestampStr);
+            
+            if (isNaN(expiryTime)) {
+                resultDiv.innerHTML = '❌ Code không hợp lệ! (Không chứa thời gian)';
+                resultDiv.style.color = '#ff6b6b';
+                return;
+            }
+
+            const now = Math.floor(Date.now() / 1000);
+            const timeLeft = expiryTime - now;
+            
+            if (timeLeft < 0) {
+                const daysPast = Math.ceil(Math.abs(timeLeft) / (24 * 60 * 60));
+                resultDiv.innerHTML = '❌ Code đã hết hạn! (Hết hạn ' + daysPast + ' ngày trước)';
+                resultDiv.style.color = '#ff6b6b';
+                return;
+            }
+
+            const daysLeft = Math.ceil(timeLeft / (24 * 60 * 60));
+            const hoursLeft = Math.ceil(timeLeft / 3600);
+            
+            let timeMsg = '';
+            if (daysLeft > 0) {
+                timeMsg = daysLeft + ' ngày';
+            } else {
+                timeMsg = hoursLeft + ' giờ';
+            }
+            
+            resultDiv.innerHTML = '✅ Code hợp lệ! Còn ' + timeMsg + ' sử dụng.';
+            resultDiv.style.color = '#51cf66';
+        }
+
+        // Tự động tạo code khi load trang
+        window.onload = function() {
+            // Kiểm tra xem đã có code trong localStorage chưa
+            const savedCode = localStorage.getItem('lastCode');
+            const savedExpiry = localStorage.getItem('lastExpiry');
+            
+            if (savedCode && savedExpiry) {
+                const now = Math.floor(Date.now() / 1000);
+                if (parseInt(savedExpiry) > now) {
+                    // Code còn hiệu lực
+                    document.getElementById('codeDisplay').textContent = savedCode;
+                    const expiryDate = new Date(parseInt(savedExpiry) * 1000);
+                    document.getElementById('createTime').textContent = 'Đã lưu từ trước';
+                    document.getElementById('expiryTime').textContent = expiryDate.toLocaleString('vi-VN');
+                    
+                    const statusBox = document.getElementById('statusBox');
+                    statusBox.innerHTML = '<span style="color: #51cf66;">✅ Code từ lần trước vẫn còn hiệu lực!</span>';
+                    statusBox.style.background = 'rgba(81, 207, 102, 0.1)';
+                    return;
+                }
+            }
+            
+            // Tạo code mới
+            generateCode();
+        };
+    </script>
+</body>
+</html>
