@@ -405,7 +405,7 @@ return {
                     {"Elasmotherium", "-592215760", "0"}
                 },
                 cavernas = {
-                    {"Amphicyon Gen 2", "221977439", "0"}
+                    {"Amphicyon Gen 2", "221977439", "0"},
                     {"Titanoboa Gen 2", "-2109842717", "0"},
                     {"Hyaenodon", "-2063805018", "0"},
                     {"Panochthus", "-2004097604", "0"},
