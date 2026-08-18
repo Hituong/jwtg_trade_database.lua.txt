@@ -5,7 +5,10 @@ return {
         terrestres = {
             no_hibridos = {
                 carnivoros = {
-                    {"Carnotaurus Toy", "-1279050091", "0"},
+                    {"Sarcosaurus", "-1688933361", "0"},
+                    {"Ceratosaurus Toy",      "-1099703480", "0"},
+                    {"Carnotaurus Toy", "-1279050091", "0"},            
+                    {"Sarcomantarx",   "-1644054745", "0"},
                     {"Dakotaraptor", "-231573096", "0"},
                     {"One-Eyed Allosaurus", "-584593692", "0"},
                     {"Junior", "1776749182", "0"},
@@ -89,6 +92,7 @@ return {
                     {"Majungasaurus", "-1506057474", "0"}
                 },
                 herviboros = {
+                    {"Animantarx", "-175921312", "0"},
                     {"Rebel", "981247961", "0"},
                     {"Angel", "-831693255", "0"},
                     {"Smoothie", "-1985032250", "0"},
@@ -192,6 +196,7 @@ return {
                     {"Haast Eagle", "-2059442256", "0"}
                 },
                 anfibios = {
+                    {"Purussaurus", "1387652168", "0"},
                     {"Gerrothorax", "1298925661", "0"},
                     {"Metoposaurus", "-267990070", "0"},
                     {"Mastodonsaurus", "-1105140581", "0"},
@@ -223,6 +228,7 @@ return {
             },
             hibridos = {
                 carnivoros_h = {
+                    {"Rinchicyon", "936285626", "0"},
                     {"Compsovenator", "1015311692", "0"},
                     {"Pachygalosaurus", "2639451", "0"},
                     {"Yudon", "-1925448439", "0"},
@@ -399,6 +405,8 @@ return {
                     {"Elasmotherium", "-592215760", "0"}
                 },
                 cavernas = {
+                    {"Amphicyon Gen 2", "221977439", "0"}
+                    {"Titanoboa Gen 2", "-2109842717", "0"},
                     {"Hyaenodon", "-2063805018", "0"},
                     {"Panochthus", "-2004097604", "0"},
                     {"Meiolania", "-2133883974", "0"},
