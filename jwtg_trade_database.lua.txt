@@ -392,6 +392,8 @@ return {
                     {"Sarkastodon", "966987009", "0"}
                 },
                 sabanas = {
+                    {"Mamolania",
+"-767.652.199","0"},
                     {"Brontotherium", "779908489", "0"},
                     {"Procoptodon", "-243375428", "0"},
                     {"Urtinotherium", "391343941", "0"},
