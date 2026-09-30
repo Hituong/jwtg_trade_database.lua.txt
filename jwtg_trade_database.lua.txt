@@ -392,9 +392,7 @@ return {
                     {"Sarkastodon", "966987009", "0"}
                 },
                 sabanas = {
-                    {"Mamolania",
-"-767.652.199","0"},
-                    {"Brontotherium", "779908489", "0"},
+                {"Brontotherium", "779908489", "0"},
                     {"Procoptodon", "-243375428", "0"},
                     {"Urtinotherium", "391343941", "0"},
                     {"Gastornis", "1909407380", "0"},
@@ -444,6 +442,8 @@ return {
             }
         },
         super_hibridos = {
+            {"Mamolania",
+                          "-767652199","0"},
             {"Compsoraptor", "1693196637", "0"},
             {"Toujiangosaurus", "-821387451", "0"},
             {"Spinotops", "250860212", "0"},
