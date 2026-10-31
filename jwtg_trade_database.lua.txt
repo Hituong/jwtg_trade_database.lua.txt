@@ -680,6 +680,8 @@ return {
         }
     },
     fragmentos = {
+        {"Purusssaurus Shard","1387652168",
+"10"},
         {"Triceratops Shard", "-670191440", "10"},
         {"Postosuchus Shard", "2059535625", "10"},
         {"Dilophosaurus Shard", "428628137", "10"},
