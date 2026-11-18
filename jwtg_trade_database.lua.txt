@@ -5,6 +5,8 @@ return {
         terrestres = {
             no_hibridos = {
                 carnivoros = {
+                    {"Megalania",",
+"-551531800", "0"},
                     {"Sarcosaurus", "-1688933361", "0"},
                     {"Ceratosaurus Toy",      "-1099703480", "0"},
                     {"Carnotaurus Toy", "-1279050091", "0"},            
